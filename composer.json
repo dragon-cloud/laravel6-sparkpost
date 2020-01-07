@@ -1,0 +1,21 @@
+{
+	"name" : "dragon-cloud/laravel6-sparkpost",
+	"description" : "SparkPost Transport Driver for Laravel 6",
+	"license" : "MIT",
+	"type" : "project",
+	"require" : {
+        "php": ">=7.2"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Laravel6SparkPost\\" : "src/"
+		}
+	},
+	"extra" : {
+		"laravel" : {
+			"providers" : [
+				"Laravel6SparkPost\\Providers\\Laravel6SparkPostServiceProvider"
+			]
+		}
+	}
+}
